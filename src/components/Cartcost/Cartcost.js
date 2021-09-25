@@ -13,9 +13,9 @@ const Cartcost = (props) => {
         <div>
             <Card className="shadow-lg pt-5 mt-5 bg-body rounded">
                 <Card.Body >
-                    <h4>Members Added: {count} </h4>
+                    <h4>Total Members: {count} </h4>
                     <h4>Total Cost: ${total} </h4>
-                    <h5>People Added:</h5>
+                    <h5>Members Added:</h5>
                     <ul>
                         {
                             name.map(nam => <li>{nam}</li>)
