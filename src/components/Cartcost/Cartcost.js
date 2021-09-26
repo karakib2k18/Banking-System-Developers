@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-
+import './Cartcost.css';
 const Cartcost = (props) => {
     //Destructuring 
     const { salaries, count, names } = props;
@@ -17,11 +17,11 @@ const Cartcost = (props) => {
                     <h3>Total Members: {count} </h3>
                     <h3>Total Cost: ${total} </h3>
                     <h4>Members Added:</h4>
-                    <ul>
+                    <ol className='member-added'>
                         {
-                            names.map(name => <li key={Math.floor(Math.random() * 999999)}>{name}</li>)
+                            names.map(name => <li key={name}>{name}</li>)
                         }
-                    </ul>
+                    </ol>
                 </Card.Body>
             </Card>
 
