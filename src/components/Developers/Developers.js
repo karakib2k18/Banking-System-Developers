@@ -11,16 +11,15 @@ const Developers = (props) => {
     return (
         <div className="col-md-4 mt-3">
             <Card className="shadow-lg p-3 mb-3 bg-body rounded">
-                <Card.Img variant="top" className="rounded-circle" src={img} style={{ height: '16rem' }} />
+                <Card.Img variant="top" className="rounded-circle mx-auto d-block" src={img} style={{ height: '12rem', width: '12rem' }} />
                 <Card.Body className="fs-5 p-edit">
                     <p>Name: {name} </p>
                     <p>Age: {age}</p>
                     <p>Gender: {gender}</p>
-                    <p>Salary: {salary}</p>
+                    <p>Salary: ${salary} USD</p>
                     <p>Role: {role}</p>
                     <p>Country: {country}</p>
                     <p>Experience: {experience}</p>
-
                     {
                         // ADD to cart and Already added functionality add in this button
                         isAdded ? <Button variant="danger"><span className="ps-2 fw-bolder">Already Added  </span></Button> : <Button onClick={() => props.handleAddBudget(props.user)} variant="warning">{element} <span className="ps-2 fw-bolder">Add to Cart</span></Button>

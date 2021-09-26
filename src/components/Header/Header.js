@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className='container bg bg-red pt-5 pb-5 header-bg'>
             <h1>New Generation Banking System Development Team </h1>
-            <h4>We have selected best developer for developing user friendly, secure a online or offline banking system. </h4>
+            <h5>We have selected best developer for developing user friendly, secure online or offline banking system. In this website you can see our developers profile, their salaries,role and experience</h5>
             <h2>Total Budget: $50 Million USD</h2>
         </div>
     );
