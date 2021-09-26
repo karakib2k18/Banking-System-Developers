@@ -22,7 +22,7 @@ const Developers = (props) => {
                     <p>Experience: {experience}</p>
                     {
                         // ADD to cart and Already added functionality add in this button
-                        isAdded ? <Button variant="danger"><span className="ps-2 fw-bolder">Already Added  </span></Button> : <Button onClick={() => props.handleAddBudget(props.user)} variant="warning">{element} <span className="ps-2 fw-bolder">Add to Cart</span></Button>
+                        isAdded ? <Button variant="danger"><span className="ps-2 fw-bolder">Already Added  </span></Button> : <Button onClick={() => props.handleAddBudget(props.user)} variant="warning">{element} <span className="ps-2 fw-bolder">Add to Project</span></Button>
                     }
 
                 </Card.Body>
