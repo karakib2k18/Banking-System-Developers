@@ -12,10 +12,10 @@ const Cartcost = (props) => {
     }
     return (
         <div>
-            <Card className="shadow-lg pt-5 mt-5 bg-body rounded">
+            <Card className="shadow-lg pt-3 mt-3 bg-body rounded text-start">
                 <Card.Body >
                     <h3>Total Members: {count} </h3>
-                    <h3>Total Cost: ${total} </h3>
+                    <h4>Total Cost: ${total} </h4>
                     <h4>Members Added:</h4>
                     <ol className='member-added'>
                         {
