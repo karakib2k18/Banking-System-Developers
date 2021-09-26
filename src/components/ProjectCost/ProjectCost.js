@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './Cartcost.css';
-const Cartcost = (props) => {
+import './ProjectCost.css';
+const ProjectCost = (props) => {
     //Destructuring 
     const { salaries, count, names } = props;
 
@@ -30,4 +30,4 @@ const Cartcost = (props) => {
     );
 };
 
-export default Cartcost;
+export default ProjectCost;

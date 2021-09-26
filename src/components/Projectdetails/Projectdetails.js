@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Cartcost from './/../Cartcost/Cartcost'
+import ProjectCost from '../ProjectCost/ProjectCost';
 import Developers from '../Developers/Developers';
 const Projectdetails = () => {
     // for showing all users data
@@ -43,7 +43,7 @@ const Projectdetails = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <Cartcost names={names} count={count} salaries={salaries}></Cartcost>
+                    <ProjectCost names={names} count={count} salaries={salaries}></ProjectCost>
                 </div>
             </div>
         </div >
